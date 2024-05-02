@@ -3,7 +3,13 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    @media (max-width: 767px) {
+        display: block;
+    }
     .image {
         width: 500px;
+        @media (max-width: 767px) {
+            width: 100%;
+        }
     }
 }
